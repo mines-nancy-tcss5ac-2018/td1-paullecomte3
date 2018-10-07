@@ -15,7 +15,7 @@ def solve16(n):
 assert solve16(1000) == 1366
 print(solve16(1000))
 
-
+#pb 22
 def solve22():
     f = open("p022_names.txt", "r")
     alphabet=list('"ABCDEFGHIJKLMNOPQRSTUVWXYZ')
@@ -32,6 +32,9 @@ def solve22():
 
 assert solve22() ==871198282
 print(solve22())
+   
+    
+#Problème 55(composé avec 2 fonctions auxiliares
     
 def construit_palindrome(a):  #a est un int
     return int("".join(list(str(a))[::-1]))
